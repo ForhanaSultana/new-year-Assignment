@@ -53,3 +53,15 @@
     height: 64px;
 
 }
+
+.failures-content {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: "✓";
+}
